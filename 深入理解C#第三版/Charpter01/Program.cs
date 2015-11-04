@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace Charpter01
 {
@@ -10,14 +11,9 @@ namespace Charpter01
     {
         static void Main(string[] args)
         {
+            // 條件: 找出價格大於10的並打印出來
             List<Product> products = Product.GetSampleProducts();
-
-            //products.Sort( (x,y) => x.Name.CompareTo(y.Name));
-
-            foreach (Product product in products.OrderBy(p => p.Name))
-            {
-                Console.WriteLine(product);
-            }
+            products.FindAll(delegate(Product p) { return p.Price > 11.00m; }).ForEach(Console.WriteLine);
             Console.Read();
         }
     }
@@ -48,6 +44,16 @@ namespace Charpter01
         public static List<Product> GetSampleProducts()
         {
             return new List<Product>()
+            {
+                new Product("B", 10.99m)
+                , new Product("A", 20.99m)
+                , new Product("C", 30.99m)
+            };
+        }
+
+        public static ArrayList GetSampleArrayProducts()
+        {
+            return new ArrayList()
             {
                 new Product("B", 10.99m)
                 , new Product("A", 20.99m)

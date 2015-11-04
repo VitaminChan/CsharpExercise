@@ -5,3 +5,9 @@ C:\Users\mit-chio\Desktop\CsharpExercise\深入理解C#第三版\Charpter01\bin\
 C:\Users\mit-chio\Desktop\CsharpExercise\深入理解C#第三版\Charpter01\obj\Debug\Charpter01.csprojResolveAssemblyReference.cache
 C:\Users\mit-chio\Desktop\CsharpExercise\深入理解C#第三版\Charpter01\obj\Debug\Charpter01.exe
 C:\Users\mit-chio\Desktop\CsharpExercise\深入理解C#第三版\Charpter01\obj\Debug\Charpter01.pdb
+C:\Users\vc\Desktop\CsharpExercise\深入理解C#第三版\Charpter01\bin\Debug\Charpter01.exe.config
+C:\Users\vc\Desktop\CsharpExercise\深入理解C#第三版\Charpter01\obj\Debug\Charpter01.exe
+C:\Users\vc\Desktop\CsharpExercise\深入理解C#第三版\Charpter01\obj\Debug\Charpter01.pdb
+C:\Users\vc\Desktop\CsharpExercise\深入理解C#第三版\Charpter01\bin\Debug\Charpter01.exe
+C:\Users\vc\Desktop\CsharpExercise\深入理解C#第三版\Charpter01\bin\Debug\Charpter01.pdb
+C:\Users\vc\Desktop\CsharpExercise\深入理解C#第三版\Charpter01\obj\Debug\Charpter01.csprojResolveAssemblyReference.cache
