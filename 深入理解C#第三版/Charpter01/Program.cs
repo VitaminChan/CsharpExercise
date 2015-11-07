@@ -11,20 +11,17 @@ namespace Charpter01
     {
         static void Main(string[] args)
         {
-            // 條件: 找出價格大於10的並打印出來
             List<Product> products = Product.GetSampleProducts();
-            products.FindAll(delegate(Product p) { return p.Price > 11.00m; }).ForEach(Console.WriteLine);
-            Console.Read();
-        }
-    }
+            var result = from Product p in products
+                         where p.Price > 11.00m
+                         select p;
 
-    class ProductNameComparer : IComparer<Product>
-    {
-        public int Compare(Product x, Product y)
-        {
-            Product first = x;
-            Product second = y;
-            return first.Name.CompareTo(second.Name);
+            foreach(Product p in result)
+            {
+                Console.WriteLine(p);
+            }
+
+            Console.Read();
         }
     }
 
